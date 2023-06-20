@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(77, 73, 67);
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+table {
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 #2303dbd4;
+    transition: 0.3s;
+    font-size: 0;
+    border-radius: 20px;
+
+}
+
+table:hover {
+    box-shadow: 0 26px 32px 0 rgba(14, 11, 229, 0.2);
+}
+
+td {
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+input {
+    width: 435px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+button {
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(253, 127, 255);
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(24, 33, 63);
+}
+
+p {
+    text-align: center;
+    color: red;
+}
